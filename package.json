@@ -1,0 +1,48 @@
+{
+  "name": "nestgoose",
+  "version": "1.0.0",
+  "description": "Nestjs module for typegoose",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "QuocDai",
+  "license": "ISC",
+  "devDependencies": {
+    "@nestjs/common": "^9.1.4",
+    "@nestjs/core": "^9.1.4",
+    "@typegoose/typegoose": "^9.12.1",
+    "mongoose": "^6.6.5",
+    "rxjs": "^7.5.7",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "is-class": "^0.0.9",
+    "reflect-metadata": "^0.1.13"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^9.1.4",
+    "@nestjs/core": "^9.1.4",
+    "@typegoose/typegoose": "^9.12.1",
+    "mongoose": "^6.6.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quocdaitinls/nestgoose"
+  },
+  "keywords": [
+    "nestgoose",
+    "typegoose",
+    "mongoose",
+    "nestjs-typegoose",
+    "nestjs-mongoose",
+    "nest-typegoose",
+    "nest-mongoose",
+    "mongodb",
+    "model",
+    "schema",
+    "odm",
+    "orm"
+  ]
+}
